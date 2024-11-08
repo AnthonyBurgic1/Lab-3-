@@ -1,0 +1,33 @@
+/* General styles for the body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* SVG Button Styles */
+  .svg-button .button {
+    fill: #3498db;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .svg-button:hover .button {
+    fill: #2980b9;
+    transform: scale(1.05);
+  }
+  
+  .svg-button .button-text {
+    font-size: 20px;
+    fill: white;
+    transition: fill 0.3s ease;
+  }
+  
+  .svg-button:hover .button-text {
+    fill: #ecf0f1;
+  }
+  
